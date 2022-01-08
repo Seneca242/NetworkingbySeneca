@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0449E3B3278795240086DB4A /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E3B2278795240086DB4A /* Course.swift */; };
+		0449E3B52789F2470086DB4A /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E3B42789F2470086DB4A /* CourseCell.swift */; };
 		04CAF7392785AC8700777842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF7382785AC8700777842 /* AppDelegate.swift */; };
 		04CAF73B2785AC8700777842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF73A2785AC8700777842 /* SceneDelegate.swift */; };
-		04CAF73D2785AC8700777842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF73C2785AC8700777842 /* ViewController.swift */; };
 		04CAF7402785AC8700777842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CAF73E2785AC8700777842 /* Main.storyboard */; };
 		04CAF7422785AC8900777842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAF7412785AC8900777842 /* Assets.xcassets */; };
 		04CAF7452785AC8900777842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CAF7432785AC8900777842 /* LaunchScreen.storyboard */; };
+		04CAF7512785B02700777842 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF7502785B02700777842 /* MainCollectionViewController.swift */; };
+		04CAF7532785B04B00777842 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF7522785B04B00777842 /* ImageViewController.swift */; };
+		04CAF7552785C11300777842 /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF7542785C11300777842 /* CoursesTableViewController.swift */; };
+		04CAF7572785C14F00777842 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAF7562785C14F00777842 /* UserActionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0449E3B2278795240086DB4A /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		0449E3B42789F2470086DB4A /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		04CAF7352785AC8700777842 /* NetworkingbySeneca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingbySeneca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAF7382785AC8700777842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CAF73A2785AC8700777842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04CAF73C2785AC8700777842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04CAF73F2785AC8700777842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CAF7412785AC8900777842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CAF7442785AC8900777842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CAF7462785AC8900777842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CAF7502785B02700777842 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		04CAF7522785B04B00777842 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		04CAF7542785C11300777842 /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
+		04CAF7562785C14F00777842 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0449E3B1278795060086DB4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0449E3B2278795240086DB4A /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		04CAF72C2785AC8700777842 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +74,52 @@
 		04CAF7372785AC8700777842 /* NetworkingbySeneca */ = {
 			isa = PBXGroup;
 			children = (
-				04CAF7382785AC8700777842 /* AppDelegate.swift */,
-				04CAF73A2785AC8700777842 /* SceneDelegate.swift */,
-				04CAF73C2785AC8700777842 /* ViewController.swift */,
-				04CAF73E2785AC8700777842 /* Main.storyboard */,
-				04CAF7412785AC8900777842 /* Assets.xcassets */,
-				04CAF7432785AC8900777842 /* LaunchScreen.storyboard */,
-				04CAF7462785AC8900777842 /* Info.plist */,
+				0449E3B1278795060086DB4A /* Model */,
+				04CAF74D2785ACF300777842 /* ViewControllers */,
+				04CAF74C2785ACE000777842 /* Storyboards */,
+				04CAF74E2785AD0200777842 /* Resources */,
+				04CAF74F2785AD1B00777842 /* Supportings */,
 			);
 			path = NetworkingbySeneca;
+			sourceTree = "<group>";
+		};
+		04CAF74C2785ACE000777842 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04CAF73E2785AC8700777842 /* Main.storyboard */,
+				04CAF7432785AC8900777842 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04CAF74D2785ACF300777842 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CAF7502785B02700777842 /* MainCollectionViewController.swift */,
+				04CAF7522785B04B00777842 /* ImageViewController.swift */,
+				04CAF7542785C11300777842 /* CoursesTableViewController.swift */,
+				04CAF7562785C14F00777842 /* UserActionCell.swift */,
+				0449E3B42789F2470086DB4A /* CourseCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04CAF74E2785AD0200777842 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CAF7412785AC8900777842 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04CAF74F2785AD1B00777842 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				04CAF7382785AC8700777842 /* AppDelegate.swift */,
+				04CAF73A2785AC8700777842 /* SceneDelegate.swift */,
+				04CAF7462785AC8900777842 /* Info.plist */,
+			);
+			path = Supportings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CAF73D2785AC8700777842 /* ViewController.swift in Sources */,
 				04CAF7392785AC8700777842 /* AppDelegate.swift in Sources */,
+				0449E3B3278795240086DB4A /* Course.swift in Sources */,
+				04CAF7552785C11300777842 /* CoursesTableViewController.swift in Sources */,
+				04CAF7572785C14F00777842 /* UserActionCell.swift in Sources */,
+				0449E3B52789F2470086DB4A /* CourseCell.swift in Sources */,
+				04CAF7512785B02700777842 /* MainCollectionViewController.swift in Sources */,
+				04CAF7532785B04B00777842 /* ImageViewController.swift in Sources */,
 				04CAF73B2785AC8700777842 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingbySeneca/Info.plist;
+				INFOPLIST_FILE = NetworkingbySeneca/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingbySeneca/Info.plist;
+				INFOPLIST_FILE = NetworkingbySeneca/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
