@@ -78,7 +78,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="tYd-JS-KB0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="tYd-JS-KB0" customClass="CourseCell" customModule="NetworkingbySeneca" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="375" height="101"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tYd-JS-KB0" id="WMK-8e-Q8h">
@@ -135,6 +135,12 @@
                                         <constraint firstItem="jJp-3z-M6j" firstAttribute="leading" secondItem="uKY-N3-MaM" secondAttribute="trailing" constant="8" id="ybc-in-dtb"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="courseImage" destination="uKY-N3-MaM" id="w6q-4s-slJ"/>
+                                    <outlet property="courseNameLabel" destination="1PY-1x-TiX" id="TSm-hc-O4w"/>
+                                    <outlet property="numberOfLessons" destination="qxg-bE-dWG" id="O6n-Xi-dg7"/>
+                                    <outlet property="numberOfTests" destination="jJp-3z-M6j" id="Fff-we-aUB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
